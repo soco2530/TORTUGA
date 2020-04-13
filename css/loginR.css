@@ -1,0 +1,21 @@
+h1,h2 {
+    text-align: center;
+    color: rgb(15, 143, 235);
+    
+}
+table{
+    width: 25%;
+    background-color: #ffc;
+    border: 2px dotted #f00;
+    margin: auto;
+}
+.izq{
+    text-align: right;
+}
+.der{
+    text-align: left;
+}
+td{
+    text-align: center;
+    padding: 10px;
+}

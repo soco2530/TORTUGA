@@ -1,0 +1,74 @@
+*{font-family: sans-serif ;}
+
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+/* cabecera y navegacion*/
+header{
+    background-color: #dfd493;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+    header h1{
+        margin: 0;padding: 10px 10px;
+        font-size: 25px;
+    }
+    nav{
+        background-color: #eae2b8;
+        padding: 10px 10px;
+        width: 100%;
+    }
+    nav ul{
+        list-style-type: none;
+        display: inline-block;
+        margin:0 ; padding: 0;
+    }
+
+nav ul li{
+    display: inline-block;
+    margin: 0 6px;
+}
+/*SECCIONES CENTRALES*/
+section{
+    width: 980px;
+    margin: 45px auto;
+    padding-top: 60px;
+}
+article{
+    display: inline-block;
+    background: linear-gradient(to bottom, #bfd255 
+    0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* W3C */
+    width:240px; height: 240px;
+    margin: 5px 5px;
+    padding: 15px 15px;
+    border-radius: 55px;
+    opacity: 0.8;
+    box-shadow: 3px 3px 15px #999;
+    text-shadow: 2px 2px #999;
+
+}
+article h1 {
+    font-size: 25px;
+}
+/*pie*/
+ footer{
+    background-color: #cbcd00;
+    padding: 10px 10px;
+    margin:0;
+}
+input[type=button]{
+    font-size: 20px;
+    padding: 20px 20px;
+    border:1px solid green;
+    background-color: lightblue;
+}
+/* responsive  foma a la aplicacion en cualquier  dispositivo */
+@media screen and (max-width:800px){
+    article{
+        display: block;
+        width: 100%;
+    }
+}
+
+

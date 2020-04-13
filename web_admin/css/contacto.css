@@ -1,0 +1,56 @@
+#contacto{
+  margin-top: 50px;
+}
+p{
+  line-height: 28px;
+}
+h1{
+  font-weight: bold;
+  font-size: 2.5em;
+  height: 80px;
+  padding: 20px 0;
+}
+.fondo-titulo{
+  border-bottom: 1px solid #eee;
+  box-shadow: 0px -2px 3px 0px;
+  width: 100%;
+  background: #FFF;
+}
+h2{
+  color: #337AB7;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 25px 0;
+}
+h4{
+  color: #337AB7;
+  font-size: 1.4em;  
+  font-weight: bold;
+  margin: 25px 0;
+}
+#mapa{  
+  width: 100%;
+}
+#informacion_contacto{
+  background: #f1f1f1;
+  font-size: 1em;
+  width: 100%;
+  padding: 20px 20px;
+}
+
+#informacion_contacto p{
+  color: #444;
+  font-size: 1em;
+}
+
+#informacion_contacto b{
+  color: #337ab7;
+  font-size: 1.1em;
+}
+
+#footer{  
+  font-size: 1.2em;
+  height: 115px;
+  padding: 50px 0;  
+  text-align: center;
+}

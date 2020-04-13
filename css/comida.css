@@ -1,0 +1,167 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+.letra{
+color: rgb(6, 6, 8);
+text-align: justify;
+font-weight: bold;
+font-size: 1.4em;
+height: 100px;
+padding: 1px 0;
+ margin:60px;
+ text-justify: auto;
+ justify-content: center;
+ justify-self: start;
+}
+.maria{
+    color: rgb(7, 6, 6);
+    text-align: justify;
+    font-weight: bold;
+    font-size: 1.6em;
+ 
+    padding: 0;
+     margin:5px;
+     text-justify: auto;
+     justify-content: center;
+     justify-self: start;
+    }
+    .letra_cata{
+        color: rgb(23, 117, 19);
+        text-align: justify;
+        font-weight: bold;
+        font-size: 1.5em;
+        padding: 0;
+         margin:30px;
+         text-justify: auto;
+         justify-content: center;
+    
+    }
+    .proyecto {
+    color: rgb(99, 2, 226);
+    text-align: justify;
+    font-weight: bold;
+    font-size: 1.6em;
+    margin:30px;
+    text-justify: auto;
+    justify-content: center;
+    letter-spacing: inherit;
+}
+ .negrita {
+    font-weight: initial;
+    letter-spacing: none;
+    color: rgb(26, 20, 20);
+    background-color: lawngreen;
+
+
+
+}
+.cata12 {
+    font-weight: initial;
+    letter-spacing: none;
+    color: rgb(26, 20, 20);
+
+
+
+
+}
+.proyecto h4{
+    font-weight: initial;
+    letter-spacing: none;
+    color: rgb(26, 20, 20);
+    font-weight: normal;
+   
+    font-family: arial;
+
+
+
+}
+.proyecto li{
+    font-weight: initial;
+    letter-spacing: none;
+    color: rgb(26, 20, 20);
+
+}
+    .cata{
+    color: rgb(7, 6, 6);
+    text-align: justify;
+    font-weight: bold;
+    font-size: 1.6em;
+     margin:30px;
+     text-justify: auto;
+     justify-content: center;
+     letter-spacing: inherit;
+   
+
+    }
+    .cata li{
+    font-weight: initial;
+    letter-spacing: none;
+    }
+    .letra_maria {
+ color: rgb(6, 6, 8);
+text-align: justify;
+
+font-size: 1.4em;
+
+padding: 1px 0;
+ margin:5px;
+ text-justify: auto;
+ justify-content: center;
+ justify-self: start;
+
+    }
+.cursos_soco{
+    font-size: 25px;
+    text-align: justify;
+    margin: 0;
+    color: rgb(243, 72, 4);
+  }
+
+.turismo{
+    color: rgb(32, 53, 95);
+    text-align: justify;
+    font-weight: bold;
+    font-size: 1.6em;
+    margin:30px;
+    text-justify: auto;
+    justify-content: center;
+    letter-spacing: inherit;
+
+}
+
+
+
+
+
+
+
+h1,h2 {
+    text-align: center;
+    color: rgb(219, 226, 231);
+    
+}
+table{
+    width: 25%;
+    background-color: #ffc;
+    border: 2px dotted #f00;
+    margin: auto;
+}
+.has table {
+    width: 25%;
+    background-color: #ffc;
+    border: 2px dotted #f00;
+    margin: auto;
+    text-align: right;
+    font-size: 1.6em;
+
+
+}
+.izq{
+    text-align: right;
+}
+.der{
+    text-align: left;
+}
+td{
+    text-align: center;
+    padding: 10px;
+}

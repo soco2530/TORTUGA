@@ -1,0 +1,43 @@
+
+/* cabecera y navegacion*/
+*{font-family: sans-serif ;}
+
+a {text-decoration: currentColor;}
+a:hover{text-decoration: underline;}
+/*SECCIONES CENTRALES*/
+section{
+    width: 1300px;
+    margin: 20px auto;
+    padding-top: 60px;
+}
+article{
+    display: inline-block;
+    background: linear-gradient(to bottom, #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,
+    #fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%);/* W3C */
+    width: 550px; height: 300px;
+    margin: 8px 8px;
+    padding: 1px 1px;
+    border-radius: 50px;
+    opacity: 0.8;
+    box-shadow: 3px 3px 15px #999;
+    text-shadow: 2px 2px #999;
+
+}
+article h1 {
+    font-size: 18px;
+}
+/*pie*/
+ footer{
+    background-color: #cbcd00;
+    padding: 10px 10px;
+    margin:0;
+}
+input[type=button]{
+    font-size: 20px;
+    padding: 20px 20px;
+    border:1px solid green;
+    background-color: lightblue;
+}
+img{
+    justify-content: center;
+}

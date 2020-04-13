@@ -1,0 +1,234 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+.fondo-titulo{
+    border-bottom: 1px solid #eee;
+    box-shadow: 0px -2px 3px 0px;
+    width: 100%;
+    background: rgb(29, 175, 219);
+    background-color: rgb(90, 223, 228);
+  }
+  h1{
+    color: rgb(203, 243, 26);
+    text-align: justify;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  
+}
+
+  
+h6{
+    color: rgb(131, 9, 9);
+    text-align: justify;
+    font-weight: bold;
+    margin-left:80px;
+    margin-top: 30px; 
+     
+    text-justify: auto;
+    justify-content: center;
+    letter-spacing: 0px;
+  
+	font-size: 2em;
+		line-height: 1.5em;
+        letter-spacing: -0.025em;
+    
+        left: 1.px;
+        top: 1.5px;
+     
+     text-indent: 1cm;
+}
+
+h2{
+  
+    color: rgb(11, 11, 12);
+    font-weight: normal;
+    letter-spacing: 4.5px;
+    font-weight: normal;
+    font-family:  Brush Script Std, sans-serif;
+  text-align: justify;
+   justify-self: center;
+    left: 1.px;
+    font-size: 2.5em;
+   
+    margin-left:90px;
+    margin-right:90px;
+  
+     
+     justify-content: center;
+     margin-top: 20px;  
+   
+    
+    }
+    ul{
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    img{
+        border-radius: 4px;
+        display: block;
+        image-orientation: from-image;
+        border-image: 5mm;
+      
+
+    }
+    .image:before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-image: url("img/golazo.jpg");
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    .image img {
+        border-radius: 4px;
+        display: block;
+    }
+
+    .image.left {
+        float: left;
+        margin: 0 1.5em 1em 0;
+        top: 0.25em;
+    }
+
+    .image.right {
+        float: right;
+        margin: 0 0 1em 1.5em;
+        top: 0.25em;
+    }
+
+    .image.left, .image.right {
+        max-width: 40%;
+    }
+
+        .image.left img, .image.right img {
+            width: 100%;
+        }
+
+    .image.fit {
+        display: block;
+        margin: 0 0 2em 0;
+        width: 100%;
+    }
+
+        .image.fit img {
+            width: 100%
+        }
+
+.letra{
+color: rgb(6, 6, 8);
+text-align: justify;
+font-weight: bold;
+font-size: 1.4em;
+height: 100px;
+padding: 1px 0;
+ margin:60px;
+ text-justify: auto;
+ justify-content: center;
+ justify-self: start;
+}
+.maria{
+    color: rgb(7, 6, 6);
+    text-align: justify;
+    font-weight: bold;
+    font-size: 1.6em;
+ 
+    padding: 0;
+     margin:5px;
+     text-justify: auto;
+     justify-content: center;
+     justify-self: start;
+    }
+    .letra_cata{
+        color: rgb(23, 117, 19);
+        text-align: justify;
+        font-weight: bold;
+        font-size: 1.5em;
+        padding: 0;
+         margin:30px;
+         text-justify: auto;
+         justify-content: center;
+    
+    }
+    .proyecto {
+    color: rgb(99, 2, 226);
+    text-align: justify;
+    font-weight: bold;
+    font-size: 1.6em;
+    margin:30px;
+    text-justify: auto;
+    justify-content: center;
+    letter-spacing: inherit;
+}
+ .negrita {
+    font-weight: initial;
+    letter-spacing: none;
+    color: rgb(26, 20, 20);
+    background-color: lawngreen;
+
+
+
+}
+.cata12 {
+    font-weight: initial;
+    letter-spacing: none;
+    color: rgb(26, 20, 20);
+
+
+
+
+}
+.proyecto h4{
+    font-weight: initial;
+    letter-spacing: none;
+    color: rgb(26, 20, 20);
+    font-weight: normal;
+   
+    font-family: arial;
+
+
+
+}
+.proyecto li{
+    font-weight: initial;
+    letter-spacing: none;
+    color: rgb(26, 20, 20);
+
+}
+    .cata{
+    color: rgb(7, 6, 6);
+    text-align: justify;
+    font-weight: bold;
+    font-size: 1.6em;
+     margin:30px;
+     text-justify: auto;
+     justify-content: center;
+     letter-spacing: inherit;
+   
+
+    }
+    .cata li{
+    font-weight: initial;
+    letter-spacing: none;
+    }
+    .letra_maria {
+ color: rgb(6, 6, 8);
+text-align: justify;
+
+font-size: 1.4em;
+
+padding: 1px 0;
+ margin:5px;
+ text-justify: auto;
+ justify-content: center;
+ justify-self: start;
+
+    }
+.cursos_soco{
+    font-size: 25px;
+    text-align: justify;
+    margin: 0;
+    color: rgb(243, 72, 4);
+  }
