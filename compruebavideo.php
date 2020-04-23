@@ -3,7 +3,7 @@
 $base=new PDO("mysql:host=localhost; dbname=tasks-app", "root","");
 $base->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-$sql="SELECT * FROM USUARIOS_PASS WHERE USUARIOS= :login AND PASSWORD= :password";
+$sql="SELECT * FROM usuarios_pass WHERE USUARIOS= :login AND PASSWORD= :password";
 
 $resultado=$base->prepare($sql);
 
